@@ -1,0 +1,8 @@
+<div style="width: max-content">
+  <h3>{{ title() }}</h3>
+
+  <p>{{ description() }}</p>
+
+  <button (click)="closed.emit()">Close</button>
+  <ng-content>No Content...</ng-content>
+</div>
